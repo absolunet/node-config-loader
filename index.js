@@ -6,6 +6,6 @@
 const fs   = require('fs');
 const yaml = require('js-yaml');
 
-module.exports = () => {
-	return yaml.safeLoad(fs.readFileSync(`./.eslintrc.yaml`, 'utf8'));
+module.exports = (path) => {
+	return yaml.safeLoad(fs.readFileSync(`${path}/.eslintrc.yaml`, 'utf8'));
 };
