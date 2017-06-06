@@ -5,5 +5,38 @@
 
 > ESLint yaml loader
 
-## License 
-See the [license](https://github.com/absolunet/node-eslint-loader/blob/master/license).
+
+## Install
+
+```sh
+$ npm install @absolunet/eslint-loader
+```
+
+
+## Usage
+
+```js
+const loader = require('@absolunet/eslint-loader');
+
+module.exports = loader(__dirname);
+```
+
+
+## API
+
+### loader(path)
+
+Returns an `Object` of [ESLint](http://eslint.org) configuration.
+
+#### path
+
+*Required*  
+Type: `string`  
+
+Path where the `.eslintrc.yaml` file is.
+
+
+
+## License
+
+MIT © [Absolunet](https://absolunet.com)
