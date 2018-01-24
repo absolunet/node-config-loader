@@ -1,0 +1,20 @@
+{
+  "name":        "@absolunet/stylelint-loader",
+  "version":     "0.0.1",
+  "description": "stylelint yaml loader",
+  "definition":  "",
+  "homepage":    "https://github.com/absolunet/node-stylelint-loader",
+  "author":      { "name": "Absolunet", "url": "http://absolunet.com/" },
+
+  "license":    "MIT",
+  "repository": { "url":   "git://github.com/absolunet/node-stylelint-loader.git", "type":"git" },
+  "bugs":       { "url": "https://github.com/absolunet/node-stylelint-loader/issues" },
+
+  "engines": { "node": ">= 9.4.0" },
+
+  "devDependencies": {},
+
+  "dependencies": {
+    "js-yaml": "^3.10.0"
+  }
+}
