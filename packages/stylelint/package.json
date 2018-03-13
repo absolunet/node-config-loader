@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/stylelint-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "stylelint yaml loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/node-stylelint-loader",
