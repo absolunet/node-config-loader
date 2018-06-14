@@ -29,14 +29,14 @@ module.exports = loader(__dirname);
 
 ### loader(path)
 
-Returns an `Object` of [ESLint](http://eslint.org) configuration.
+Returns an `Object` of [ESLint](https://eslint.org) configuration.
 
 #### path
 
 *Required*
 Type: `string`
 
-Path where the `.eslintrc.yaml` file is.
+Path where the `shareable-config.yaml` file is.
 
 
 
