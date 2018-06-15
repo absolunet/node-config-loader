@@ -1,15 +1,18 @@
 # @absolunet/stylelint-loader
 
-[![NPM version](https://img.shields.io/npm/v/@absolunet/stylelint-loader.svg)](https://www.npmjs.com/package/@absolunet/stylelint-loader)
-[![Dependencies](https://david-dm.org/absolunet/node-stylelint-loader/status.svg)](https://david-dm.org/absolunet/node-stylelint-loader)
+[![npm](https://img.shields.io/npm/v/@absolunet/stylelint-loader.svg)](https://www.npmjs.com/package/@absolunet/stylelint-loader)
+[![npm dependencies](https://david-dm.org/absolunet/node-stylelint-loader/status.svg)](https://david-dm.org/absolunet/node-stylelint-loader)
+[![npms](https://badges.npms.io/%40absolunet%2Fstylelint-loader.svg)](https://npms.io/search?q=%40absolunet%2Fstylelint-loader)
+[![Travis CI](https://api.travis-ci.org/absolunet/node-stylelint-loader.svg?branch=master)](https://travis-ci.org/absolunet/node-stylelint-loader/builds)
+[![Code style](https://img.shields.io/badge/code_style-@absolunet/node-659d32.svg)](https://github.com/absolunet/eslint-config-node)
 
-> stylelint yaml loader
+> stylelint YAML configuration loader
 
 
 ## Install
 
 ```sh
-$ npm install @absolunet/stylelint-loader
+$ npm i @absolunet/stylelint-loader
 ```
 
 
@@ -30,10 +33,10 @@ Returns an `Object` of [stylelint](https://stylelint.io/) configuration.
 
 #### path
 
-*Required*  
-Type: `string`  
+*Required*
+Type: `string`
 
-Path where the `.stylelintrc.yaml` file is.
+Path where the `extendable-config.yaml` file is.
 
 
 
