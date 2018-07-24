@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/node-eslint-loader",
@@ -8,6 +8,12 @@
     "name": "Absolunet",
     "url": "https://absolunet.com"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "yaml"
+  ],
   "license": "MIT",
   "repository": {
     "url": "git://github.com/absolunet/node-eslint-loader.git",
@@ -17,13 +23,14 @@
     "url": "https://github.com/absolunet/node-eslint-loader/issues"
   },
   "engines": {
-    "node": ">= 10.4.1"
+    "node": ">= 10.7.0"
   },
+  "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "devDependencies": {
-    "@absolunet/tester": "1.7.0"
+    "@absolunet/tester": "2.0.3"
   },
   "dependencies": {
     "js-yaml": "^3.12.0"

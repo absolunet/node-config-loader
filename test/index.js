@@ -5,16 +5,14 @@
 
 const ava    = require('ava');
 const tester = require('@absolunet/tester');
-const loader = require('../index');
+const loader = require('..');
 
 
 
 
 
 
-tester.lintJs();
-tester.lintJson();
-tester.lintYaml();
+tester.npmPackage.validate();
 
 ava.test('File loads', (t) => {
 	const data = loader(__dirname);
