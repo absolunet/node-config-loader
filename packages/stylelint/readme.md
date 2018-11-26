@@ -1,10 +1,10 @@
 # @absolunet/stylelint-loader
 
 [![npm](https://img.shields.io/npm/v/@absolunet/stylelint-loader.svg)](https://www.npmjs.com/package/@absolunet/stylelint-loader)
-[![npm dependencies](https://david-dm.org/absolunet/node-stylelint-loader/status.svg)](https://david-dm.org/absolunet/node-stylelint-loader)
+[![npm dependencies](https://david-dm.org/absolunet/node-config-loader/status.svg?path=packages/stylelint)](https://david-dm.org/absolunet/node-config-loader?path=packages/stylelint)
 [![npms](https://badges.npms.io/%40absolunet%2Fstylelint-loader.svg)](https://npms.io/search?q=%40absolunet%2Fstylelint-loader)
-[![Travis CI](https://api.travis-ci.org/absolunet/node-stylelint-loader.svg?branch=master)](https://travis-ci.org/absolunet/node-stylelint-loader/builds)
-[![Code style](https://img.shields.io/badge/code_style-@absolunet/node-659d32.svg)](https://github.com/absolunet/eslint-config-node)
+[![Travis CI](https://api.travis-ci.org/absolunet/node-config-loader.svg?branch=master)](https://travis-ci.org/absolunet/node-config-loader/builds)
+[![Code style](https://img.shields.io/badge/code_style-@absolunet/node-659d32.svg)](https://github.com/absolunet/eslint-config)
 
 > stylelint YAML configuration loader
 
@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-$ npm i @absolunet/stylelint-loader
+$ npm install @absolunet/stylelint-loader
 ```
 
 

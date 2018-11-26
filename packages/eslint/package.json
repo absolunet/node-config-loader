@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/stylelint-loader",
-  "version": "1.0.0",
-  "description": "stylelint YAML configuration loader",
+  "name": "@absolunet/eslint-loader",
+  "version": "1.0.2",
+  "description": "ESLint YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/node-config-loader",
   "author": {
@@ -9,8 +9,9 @@
     "url": "https://absolunet.com"
   },
   "keywords": [
-    "stylelint",
-    "stylelint-config",
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
     "yaml"
   ],
   "license": "MIT",
@@ -22,7 +23,7 @@
     "url": "https://github.com/absolunet/node-config-loader/issues"
   },
   "engines": {
-    "node": ">= 10.4.1"
+    "node": ">= 10.7.0"
   },
   "main": "index.js",
   "dependencies": {

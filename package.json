@@ -1,38 +1,16 @@
 {
-  "name": "@absolunet/eslint-loader",
-  "version": "1.0.2",
-  "description": "ESLint YAML configuration loader",
-  "definition": "",
-  "homepage": "https://github.com/absolunet/node-eslint-loader",
-  "author": {
-    "name": "Absolunet",
-    "url": "https://absolunet.com"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "eslint-config",
-    "yaml"
-  ],
-  "license": "MIT",
-  "repository": {
-    "url": "git://github.com/absolunet/node-eslint-loader.git",
-    "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/absolunet/node-eslint-loader/issues"
-  },
-  "engines": {
-    "node": ">= 10.7.0"
-  },
-  "main": "index.js",
+  "name": "config-loader",
+  "private": true,
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "postinstall": "rm -rf packages/*/package-lock.json; lerna clean --yes; lerna bootstrap --no-ci",
+    "outdated": "node manager.js --task=outdated",
+    "build": "node manager.js --task=build",
+    "deploy": "node manager.js --task=deploy"
   },
   "devDependencies": {
-    "@absolunet/tester": "2.0.3"
-  },
-  "dependencies": {
-    "js-yaml": "^3.12.0"
+    "@absolunet/manager": "0.2.3",
+    "@absolunet/tester": "2.4.0",
+    "lerna": "3.4.3"
   }
 }
