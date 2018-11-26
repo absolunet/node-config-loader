@@ -3,9 +3,8 @@
 //--------------------------------------------------------
 'use strict';
 
-const fs   = require('fs');
-const yaml = require('js-yaml');
+const fss = require('@absolunet/fss');
 
 module.exports = (path) => {
-	return yaml.safeLoad(fs.readFileSync(`${path}/shareable-config.yaml`, 'utf8'));
+	return fss.readYaml(`${path}/shareable-config.yaml`);
 };

@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@absolunet/manager": "0.2.3",
-    "@absolunet/tester": "2.4.0",
+    "@absolunet/tester": "2.4.2",
     "lerna": "3.4.3"
   }
 }
